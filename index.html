@@ -6,41 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
-    <title>Ba-starter</title>
+    <link href="https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
+
+    <title>Travel More</title>
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
     
-    <header class="ba-header">
-        <div class="conteiner">
+    <div class="ba-banner">
 
-            <a href="#" class="ba-logo"></a>
+                <section class="ba-hero">
+                    <div class="conteiner ba-hero-wrapper">
+                        <h1 class="ba-hero__title">Bhromaon</h1>
+                        <p class="ba-hero__desc">Safe Travel Anywhere</p>
+                        <form action class="ba-hero-search">
+                            <input type="search" required class="ba-hero-search__input" placeholder="Search Your Travel Destination">
+                            <button class="ba-hero-search__btn">
+                                <span>Search</span>
+                                <img src="img/search.png" class="ba-hero-search__btn-img" alt="Search">
+                            </button>
+                        </form>
+                        <div class="ba-hero-scroll-down">
+                            <a href="#main" class="ba-hero-scroll-down__link" aria-label="scroll to main">
+                                Scroll Down
+                            </a>
+                            <img src="img/scroll.png" alt="scroll">
+                        </div>                     
+                    </div>
+                </section>
+        
+                <header class="ba-header">
+                    <div class="conteiner ba-header-wrapper">
+        
+                        <a href="#" class="ba-logo">Bhromaon</a>
+        
+                        <nav>
+                            <ul class="ba-menu">
+                                <li class="ba-menu__item">
+                                    <a href="" class="ba-menu__link">Who We Are</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="" class="ba-menu__link">What We Do</a>
+                                </li>
+                                 <li class="ba-menu__item">
+                                    <a href="" class="ba-menu__link">Travel With Us</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="" class="ba-menu__link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+    </div>
 
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="" class="ba-menu__link">item1</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="" class="ba-menu__link">item2</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="" class="ba-menu__link">item3</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="" class="ba-menu__link">item4</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <main>
         <section class="ba-section">
-            <div class="conteiner">
-
+            <div class="conteiner ba-section-choose">
+                <div class="ba-section-choose-text">
+                    <h2 class="ba-section-choose__title">Why Choose Us</h2>
+                    <p class="ba-section-choose__desc">
+                        Tion and dislike men who are so beguiled and demoralized 
+                        by desire by the charms of pleasure of the moment, 
+                        so blinded by desire, that they cannot foresee
+                    </p>
+                    <p class="ba-section-choose__desc">
+                        Ddislike men who are so beguiled and demoralized 
+                        by the charms of pleasure of the moment, so blinded by desire, that.
+                    </p>
+                    <button class="ba-section-choose__btn">Explore Places </button>
+                </div>
+                <div class="ba-section-choose-picture">
+                    <img src="img/picture1.jpg" class="ba-section-choose-picture__img1" alt="Picture">
+                    <img src="img/picture2.jpg" class="ba-section-choose-picture__img2" alt="Picture">
+                </div>
             </div>
         </section>
+
+        <section class="ba-home">
+            <div class="conteiner ba-home-wrapper">
+                <div class="ba-home-choose">
+                    <span class="ba-home-choose__desc">Spain</span>
+                    <h3 class="ba-home-choose__title">
+                        Grand Spain Madrid
+                    </h3>
+                    <p class="ba-home-choose__desc">
+                        But I must explain to you how all this mistaken 
+                        idea of account to denouncing pleasure and praising pain was account  
+                        born and I account will give you a complete account of the system
+                    </p>
+                    <button class="ba-home-choose__btn">Book Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="ba-mountains">
+                <div class="conteiner ba-mountains-wrapper">
+                    <div class="ba-mountains-choose">
+                        <span class="ba-mountains-choose__desc">Spain</span>
+                        <h3 class="ba-mountains-choose__title">
+                            Grand Spain Madrid
+                        </h3>
+                        <p class="ba-mountains-choose__desc">
+                            But I must explain to you how all this mistaken 
+                            idea of account to denouncing pleasure and praising pain was account  
+                            born and I account will give you a complete account of the system
+                        </p>
+                        <button class="ba-mountains-choose__btn">Book Now</button>
+                    </div>
+                </div>
+        </section>
+
+
     </main>
 
     <footer class="ba-footer">
